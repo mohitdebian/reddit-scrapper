@@ -1,0 +1,277 @@
+# Instincts generated from https://github.com/mohitdebian/reddit-scrapper
+# Generated: 2026-07-15T09:34:02.065Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: reddit-scrapper-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Commit Length
+
+## Action
+
+Write moderate-length commit messages (~50 characters)
+
+## Evidence
+
+- Average commit message length: 50 chars
+- Based on 1 commits
+
+---
+id: reddit-scrapper-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: reddit-scrapper-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: reddit-scrapper-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: reddit-scrapper-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: reddit-scrapper-instinct-filename-camelcase
+trigger: "When creating a new Python file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Filename Camelcase
+
+## Action
+
+Name the file using camelCase (e.g., myFile.py)
+
+## Evidence
+
+- Pattern in namingConventions.files
+
+---
+id: reddit-scrapper-instinct-function-camelcase
+trigger: "When defining a new function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Function Camelcase
+
+## Action
+
+Name the function using camelCase (e.g., getPosts)
+
+## Evidence
+
+- Pattern in namingConventions.functions
+
+---
+id: reddit-scrapper-instinct-class-pascalcase
+trigger: "When defining a new class"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Class Pascalcase
+
+## Action
+
+Name the class using PascalCase (e.g., RedditScraper)
+
+## Evidence
+
+- Pattern in namingConventions.classes
+
+---
+id: reddit-scrapper-instinct-constant-screaming-snake-case
+trigger: "When defining a constant"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Constant Screaming Snake Case
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE (e.g., API_KEY)
+
+## Evidence
+
+- Pattern in namingConventions.constants
+
+---
+id: reddit-scrapper-instinct-import-relative
+trigger: "When importing modules within the package"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Import Relative
+
+## Action
+
+Use relative imports
+
+## Evidence
+
+- Pattern in importStyle
+
+---
+id: reddit-scrapper-instinct-export-named
+trigger: "When exporting functions or classes"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Export Named
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle
+
+---
+id: reddit-scrapper-instinct-test-separate-folder
+trigger: "When adding tests"
+confidence: 0.9
+domain: testing
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Test Separate Folder
+
+## Action
+
+Place test files in a separate folder from source code
+
+## Evidence
+
+- Pattern in architecture.folderStructure.testLocation
+
+---
+id: reddit-scrapper-instinct-commit-freeform
+trigger: "When writing a commit message"
+confidence: 0.8
+domain: git
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Commit Freeform
+
+## Action
+
+Write a freeform message without a strict prefix, describing the change (e.g., 'Add Reddit Post Growth Tracker assignment solution')
+
+## Evidence
+
+- Pattern in commits.examples
+
+---
+id: reddit-scrapper-instinct-commit-length
+trigger: "When composing a commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: mohitdebian/reddit-scrapper
+---
+
+# Reddit Scrapper Instinct Commit Length
+
+## Action
+
+Keep the commit message concise, around 50 characters on average
+
+## Evidence
+
+- Pattern in commits.averageLength
+
