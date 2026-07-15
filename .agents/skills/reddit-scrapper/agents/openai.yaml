@@ -1,0 +1,6 @@
+interface:
+  display_name: "Reddit Scrapper"
+  short_description: "Repo-specific patterns and workflows for reddit-scrapper"
+  default_prompt: "Use the reddit-scrapper repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
